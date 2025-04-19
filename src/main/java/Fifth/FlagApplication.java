@@ -11,7 +11,7 @@ public class FlagApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(FlagApplication.class.getResource("flag_view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 300, 200);
+        Scene scene = new Scene(fxmlLoader.load(), 400, 200);
         stage.setTitle("Текстовый флаг");
         stage.setScene(scene);
         stage.setResizable(false); // Запрещаем изменение размера окна
