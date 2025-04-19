@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="First_Second.HelloController">
+   <children>
+      <Button fx:id="arrow_baton" layoutX="246.0" layoutY="158.0" mnemonicParsing="false" onAction="#clickArrow" prefHeight="41.0" prefWidth="107.0" style="-fx-background-color: black;" text="-&gt;" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="21.0" />
+         </font>
+      </Button>
+      <TextField fx:id="left" layoutX="105.0" layoutY="105.0" />
+      <TextField fx:id="right" disable="true" layoutX="345.0" layoutY="105.0" />
+      <CheckBox fx:id="right_check" layoutX="320.0" layoutY="109.0" mnemonicParsing="false" selected="true" />
+      <CheckBox fx:id="left_check" layoutX="79.0" layoutY="109.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="20.0" selected="true" />
+      <CheckBox fx:id="arrow_check" layoutX="217.0" layoutY="170.0" mnemonicParsing="false" selected="true" />
+   </children>
+</AnchorPane>

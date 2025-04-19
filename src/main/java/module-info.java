@@ -1,8 +1,10 @@
-module org.example.demo1 {
+module First_Second {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens org.example.demo1 to javafx.fxml;
-    exports org.example.demo1;
+    opens First_Second to javafx.fxml;
+    exports First_Second;
+    opens Third to javafx.fxml;
+    exports Third;
 }
