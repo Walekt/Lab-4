@@ -7,4 +7,6 @@ module First_Second {
     exports First_Second;
     opens Third to javafx.fxml;
     exports Third;
+    opens Fifth to javafx.fxml;
+    exports Fifth;
 }
